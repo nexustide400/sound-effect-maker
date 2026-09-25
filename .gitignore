@@ -1,0 +1,35 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.log
+
+# Local-only artwork and publication review instructions
+/illustrations/
+/SKILL.md
+
+# Rebuildable distribution archives and production notes
+/sound-effect-maker-kit.zip
+/output/制作メモ.txt
+/assets/*-prompt.txt
+
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
